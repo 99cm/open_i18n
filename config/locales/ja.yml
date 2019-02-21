@@ -282,50 +282,6 @@ ja:
       spree/zone:
         one: "ゾーン"
         other: "ゾーン"
-  devise:
-    confirmations:
-      confirmed: "アカウントが正常に確認されました。ログインしました。"
-      send_instructions:
-    failure:
-      inactive: "アカウントはまだ確認されませんでした。"
-      invalid: Eメールアドレスもしくはパスワードが異なります。
-      invalid_token: "無効な認証トークン。"
-      locked: "アカウントはロックされています"
-      timeout:
-      unauthenticated: "続ける前にサインインかサインアップが必要です。"
-      unconfirmed: "続ける前にアカウントの確認が必要です。"
-    mailer:
-      confirmation_instructions:
-        subject:
-      reset_password_instructions:
-        subject: "パスワードのリセット方法"
-      unlock_instructions:
-        subject:
-    oauth_callbacks:
-      failure:
-      success:
-    unlocks:
-      send_instructions:
-      unlocked:
-    user_passwords:
-      user:
-        cannot_be_blank: "パスワードを入力してください。"
-        send_instructions:
-        updated: "パスワードの変更に成功しました。サインインし直してください。"
-    user_registrations:
-      destroyed:
-      inactive_signed_up:
-      signed_up:
-      updated:
-    user_sessions:
-      signed_in: "サインインに成功しました。"
-      signed_out: "サインアウトに成功しました。"
-  errors:
-    messages:
-      already_confirmed:
-      not_found:
-      not_locked:
-      not_saved:
   spree:
     abbreviation: "省略"
     accept:

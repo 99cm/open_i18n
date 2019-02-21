@@ -8,9 +8,10 @@ module SpreeI18n
   end
 
   module VERSION
-    MAJOR = 3
-    MINOR = 3
-    TINY  = 2
+    MAJOR = 2
+    MINOR = 0
+    TINY  = 0
+    PRE = nil
 
     STRING = [MAJOR, MINOR, TINY].compact.join('.')
   end

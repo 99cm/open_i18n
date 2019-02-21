@@ -1,7 +1,0 @@
-require 'rails-i18n'
-require 'rails/generators'
-require 'spree_core'
-require 'spree_i18n/engine'
-require 'spree_i18n/version'
-require 'spree/i18n_utils'
-require 'spree_extension'

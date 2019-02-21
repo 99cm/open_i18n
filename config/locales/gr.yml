@@ -281,52 +281,6 @@ gr:
       spree/zone:
         one: Ζώνη
         other: Ζώνες
-  devise:
-    confirmations:
-      confirmed: Ο λογαριασμός σας επιβεβαιώθηκε επιτυχώς. Είσοδος.
-      send_instructions: Θα λάβετε σύντομα ένα email με οδηγίες επιβεβαίωσης του λογαριασμού σας.
-    failure:
-      inactive: Ο λογαριασμός σας δεν έχει ενεργοποιηθεί.
-      invalid: Λανθασμένο email ή κωδικός.
-      invalid_token: Λανθασμένο authentication token.
-      locked: Ο λογαριασμός σας έχει κλειδώθει.
-      timeout: Έχετε αποσυνδεθεί, παρακαλώ συνδεθείτε ξανά για να συνεχίσετε.
-      unauthenticated: Πρέπει να συνδεθείτε ή να εγγραφείτε για να συνεχίσετε.
-      unconfirmed: Πρέπει να επιβεβαιώσετε τον λογαριασμό σας για να συνεχίσετε.
-    mailer:
-      confirmation_instructions:
-        subject: Οδηγίες επιβεβαίωσης
-      reset_password_instructions:
-        subject: Οδηγίες αλλαγής κωδικού
-      unlock_instructions:
-        subject: Οδηγίες ξεκλειδώματος
-    oauth_callbacks:
-      failure: Δεν έχετε εξουσιοδότηση για %{kind} επειδή %{reason}.
-      success: Επιτυχής εξουσιοδότηση για %{kind} λογαριασμό
-    unlocks:
-      send_instructions: Θα λάβετε ένα email με οδηγίες ξεκλειδώματος του λογαριασμού σας σύντομα.
-      unlocked: Ο λογαριασμός σας ξεκλειδώθηκε με επιτυχία. Συνδέση.
-    user_passwords:
-      user:
-        cannot_be_blank: Ο κωδικός δεν γίνετε να είναι κενός.
-        send_instructions: Θα λάβετε ένα email με οδηγίες αλλαγής του κωδικού σας σύντομα.
-        updated: Ο κωδικός σας άλλαξε επιτυχώς. Συνδέση.
-    user_registrations:
-      destroyed: Αντίο! Ο λογαριασμός σας διαγράφηκε επιτυχώς. Ελπίζουμε να σας ξαναδούμε σύντομα.
-      inactive_signed_up: Συνδεθήκατε επιτυχώς. Παρόλα αυτα, δεν μπορεσάτε να συνεχίσετε γιατί %{reason}.
-      signed_up: Καλώς ήλθατε! Συνδεθήκατε επιτυχώς.
-      updated: Ο λογαριασμός σας ενημερώθηκε επιτυχώς.
-    user_sessions:
-      signed_in: Επιτυχής σύνδεση.
-      signed_out: Επιτυχής αποσύνδεση.
-  errors:
-    messages:
-      already_confirmed: έχει ήδη επιβεβαιωθεί
-      not_found: δεν βρέθηκς
-      not_locked: δεν είναι κλειδωμένο
-      not_saved:
-        one: '1 πρόβλημα εμπόδισε αυτήν την %{resource} απο το να αποθηκευτέι:'
-        other: "%{count} προβήματα εμπόδισαν αυτήν την %{resource} απο το να αποθηκευτέι:"
   spree:
     abbreviation: Abbreviation
     accept:

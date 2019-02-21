@@ -326,59 +326,6 @@ lt:
       spree/zone:
         one: Zona
         other: Zonos
-  views:
-    pagination:
-      next: 'Kitas &#8250;'
-      last: 'Paskutinis &#8250;&#8250;'
-      previous: '&#8249; Ankstesnis'
-      first: '&#8249;&#8249; Pirmas'
-  devise:
-    confirmations:
-      confirmed: Jūs sėkmingai prisiregistravote ir prisijungėte.
-      send_instructions: Netrukus sulauksite el. laiško su instrukcijomis, kaip patvirtinti savo paskyrą.
-    failure:
-      inactive: Jūsų paskaita dar neaktyvuota.
-      invalid: Neteisingas el. pašto adresas arba slaptažodis.
-      invalid_token: Neteisingas prisijungimo raktas.
-      locked: Jūsų paskyra užrakinta.
-      timeout: Jūsų sesija baigėsi. Prašome prisijungti iš naujo.
-      unauthenticated: Prašome prisijungti prie savo paskyros.
-      unconfirmed: Prašome patvirtinti savo paskyrą, kad galėtumėte tęsti.
-    mailer:
-      confirmation_instructions:
-        subject: Paskyros patvirtinimo instrukcijos
-      reset_password_instructions:
-        subject: Slaptažodžio keitimo instrukcijos
-      unlock_instructions:
-        subject: Atrakinimo instrukcijos
-    oauth_callbacks:
-      failure: Negalime Jūsų autorizuoti %{kind} nes \%{reason}\.
-      success: Sėkmingai patvirtinote %{kind} paskyrą.
-    unlocks:
-      send_instructions: Netrukus gausite el. laišką su instrukcijomis, kaip atsirakinti savo paskyrą.
-      unlocked: Jūsų paskyra sėkmingai atrakinta. Jūs esate prisijungęs.
-    user_passwords:
-      user:
-        cannot_be_blank: Įveskite slaptažodį.
-        send_instructions: Netrukus gausite el. laišką su instrukcijomis, kaip pasikeisti savo slaptažodį.
-        updated: Jūsų slaptažodis pakeistas sėkmingai. Jūs prisijungėte prie savo paskyros.
-    user_registrations:
-      destroyed: Jūsų paskyra ištrinta. Tikimės, kad ateityje sugrįšite.
-      inactive_signed_up: Jūs sėkmingai prisiregistravote. Deja negalite prisijungti prie savo paskyros, nes %{reason}.
-      signed_up: Sveikiname sėkmingai prisiregistravus!
-      updated: Sėkmingai atnaujinote savo paskyros duomenis.
-    sessions:
-      spree_user:
-        signed_in: Sėkmingai prisijungėte.
-        signed_out: Sėkmingai atsijungėte.
-  errors:
-    messages:
-      already_confirmed: jau buvo patvirtinta
-      not_found: nerastas
-      not_locked: nebuvo užrakinta
-      not_saved:
-        one: '1 klaida neleido išsaugoti %{resource}:'
-        other: "%{count} klaidos neleido išsaugoti %{resource}:"
   number:
     percentage:
       format:
@@ -1502,3 +1449,9 @@ lt:
     zipcode: Pašto kodas
     zone: Zona
     zones: Zonos
+  views:
+    pagination:
+      next: 'Kitas &#8250;'
+      last: 'Paskutinis &#8250;&#8250;'
+      previous: '&#8249; Ankstesnis'
+      first: '&#8249;&#8249; Pirmas'

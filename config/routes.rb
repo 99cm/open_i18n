@@ -1,7 +1,5 @@
-Spree::Core::Engine.add_routes do
-  # from routing-filter gem
+Spree::Core::Engine.routes.draw do
   filter :locale
 
-  get '/locales', to: 'locale#index', as: :locales
-  post '/locale/set', to: 'locale#set', defaults: { format: :json }, as: :set_locale
+  mount Spree::Core::Engine, at: '/'
 end

@@ -5,8 +5,8 @@
 .idea
 .localeapp/locales
 .project
+config/locales/en.yml
 coverage
-default
 Gemfile.lock
 tmp
 nbproject
@@ -18,5 +18,3 @@ spec/dummy
 public/spree
 .ruby-version
 .ruby-gemset
-gemfiles/*.gemfile.lock
-*.gem
